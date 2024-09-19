@@ -15,7 +15,7 @@ export default function Services(){
         {
           icon: '/images/calculator.png',
           title: 'Improved Cost Control',
-          description: 'Get real-time pricing updates to manage your budget effectively and avoid unexpected costs.',
+          description: 'Get real-time pricing updates to manage your budget effectively and avoid unexpected costs efficiently and effortlessly.',
         },
       ];
 

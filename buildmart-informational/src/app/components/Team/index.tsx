@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 const teamMembers = [
-  { name: "Rehema Funani", role: "Software Developer", image: "/images/rehema.jpg" },
+  { name: "Rehema Funani", role: "Software Developer", image: "/images/rehema.png" },
   { name: "Eshe Aziz", role: "Software Developer", image: "/images/aziz.jpg" },
   { name: "Faith Nyambura", role: "Software Developer", image: "/images/faith.jpg" },
   { name: "Moureen Gitahi", role: "Software Developer", image: "/images/moureen.jpg" },
@@ -24,7 +24,7 @@ const TeamMember = ({ name, role, image }) => (
 
 export default function Team() {
   return (
-    <main className="min-h-screen">
+    <main>
       <div className="py-10 px-4">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-[#263C5A] text-center">Meet the Team</h2>
