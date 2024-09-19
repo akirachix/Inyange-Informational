@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 const teamMembers = [
-  { name: "Rehema Funani", role: "Software Developer", image: "/images/rehema.jpg" },
+  { name: "Rehema Funani", role: "Software Developer", image: "/images/rehema.png" },
   { name: "Eshe Aziz", role: "Software Developer", image: "/images/aziz.jpg" },
   { name: "Faith Nyambura", role: "Software Developer", image: "/images/faith.jpg" },
   { name: "Moureen Gitahi", role: "Software Developer", image: "/images/moureen.jpg" },
