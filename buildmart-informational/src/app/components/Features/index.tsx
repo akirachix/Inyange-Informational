@@ -5,7 +5,7 @@ export default function Features() {
   return (
     <main className="py-8">
       <div className="container mx-auto px-8"> 
-        <h1 className="text-[30px] sm:text-[30px] md:text-[30px] lg:text-[30px] font-semibold mt-[20px] sm:mt-[30px] md:mt-[30px] lg:mt-[30px] text-[#263C5A] text-center">
+        <h1 className="text-[38px] sm:text-[40px] md:text-[40px] lg:text-[40px] font-semibold mt-[20px] sm:mt-[30px] md:mt-[40px] lg:mt-[50px] text-[#263C5A] text-center">
           Features
         </h1>
         
