@@ -24,7 +24,7 @@ export default function Landingpage() {
           alt="Builder"
           width={500}
           height={300}
-          className="max-w-full w-full sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto" // Added mx-auto for centering
+          className="max-w-full w-full sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto" 
         />
       </div>
     </div>
