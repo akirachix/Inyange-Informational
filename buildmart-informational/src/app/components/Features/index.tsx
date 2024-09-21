@@ -4,7 +4,8 @@ import Image from "next/image";
 export default function Features() {
   return (
     <main className="py-8">
-      <div className="container mx-auto px-8"> 
+      <section id="features">
+      <div className="container mx-auto px-8 font-worksans"> 
         <h1 className="text-[38px] sm:text-[40px] md:text-[40px] lg:text-[40px] font-semibold mt-[20px] sm:mt-[30px] md:mt-[40px] lg:mt-[50px] text-[#263C5A] text-center">
           Features
         </h1>
@@ -41,6 +42,7 @@ export default function Features() {
           </div>
         </div>
       </div>
+      </section>
     </main>
   );
 }

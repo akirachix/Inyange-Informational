@@ -15,13 +15,14 @@ export default function Services(){
         {
           icon: '/images/calculator.png',
           title: 'Improved Cost Control',
-          description: 'Get real-time pricing updates to manage your budget effectively and avoid unexpected costs efficiently and effortlessly.',
+          description: 'Get real-time pricing updates to manage your budget effectively and avoid unexpected costs.',
         },
       ];
 
 return (
   <main>
-    <div className="py-4 px-4">
+    <section id="service">
+    <div className="py-4 px-4 mt-[100px] font-worksans">
       <div className="container mx-auto text-center">
         <h2 className="text-[30px] font-bold text-[#263C5A] mb-4">Why Choose BuildMart?</h2>
         <div className="flex  flex-wrap justify-center gap-x-4 gap-y-6 sm:gap-x-8 md:gap-x-12 lg:gap-x-8 xl:gap-x-42 2xl:gap-x-72">
@@ -32,13 +33,14 @@ return (
                 alt={feature.title}
                 className="w-[80px] h-[80px] mb-2"
               />
-              <h3 className="text-[24px] font-bold mb-1 text-[#263C5A]">{feature.title}</h3>
-              <p className="w-60 sm:w-64 text-[14px] md:text-[16px]">{feature.description}</p>
+              <h3 className="text-[24px] font-bold mb-4 text-[#263C5A]">{feature.title}</h3>
+              <p className="lg:w-80 sm:w-64 text-[16px] md:text-[18px]">{feature.description}</p>
             </div>
           ))}
         </div>
       </div>
     </div>
+    </section>
   </main>
   );
 }
