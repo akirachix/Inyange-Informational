@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Landingpage() {
   return (
@@ -12,10 +13,11 @@ export default function Landingpage() {
         <h1 className="text-[21px] sm:text-[23px] lg:text-[36px] xl:text-[40px] font-bold text-primary leading-tight text-center lg:text-left w-[100%] sm:w-[90%] lg:w-[100%] xl:w-[70%] mb-6 lg:mb-[60px] mx-auto lg:mx-0 xl:ml-[100px] md:text-[32px] md:ml-[20px]">
           Get instant price comparisons and find trusted suppliers near you
         </h1>
-
-        <button className="bg-primary text-black text-[14px] sm:text-[16px] lg:text-[23px] lg:ml-[100px] font-semibold py-3 sm:py-4 lg:py-6 px-5 sm:px-6 lg:px-10 rounded-full mx-auto lg:mx-0 hover:bg-white transition duration-300 mt-[20px] lg:mt-[20px] md:text-[20px]">
-          Get Started
+        <Link href="/target-page" className="bg-primary text-black text-[14px] sm:text-[16px] lg:text-[23px] lg:ml-[100px] font-semibold py-3 sm:py-4 lg:py-6 px-5 sm:px-6 lg:px-10 rounded-full mx-auto lg:mx-0 hover:bg-white transition duration-300 mt-[20px] lg:mt-[20px] md:text-[20px]">
+        <button >
+          Shop Now
         </button>
+        </Link>
       </div>
 
       <div className="w-full lg:w-[50%] mt-[20px] lg:mt-0 lg:ml-[100px] flex justify-center xl:mt-[-40px]">
