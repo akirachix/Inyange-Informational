@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <main>
       <div className="navbar flex items-center justify-between bg-secondary px-4 sm:px-6 lg:px-8 lg:py-4 lg:w-full lg:mt-[-30px] font-worksans">
-        <img
+        <Image
           src="/images/Informational-Websit.png"
           width={300}
           height={100}
