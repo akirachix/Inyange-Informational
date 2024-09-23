@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { PiLinkedinLogoLight } from "react-icons/pi";
+import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 
@@ -30,14 +30,14 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="w-full md:w-1/4 mb-6 md:mb-0 xl:text-[20px]">
-            <h4 className="text-[24px] font-semibold mb-4 text-yellow-400">
+            <h4 className="text-[24px] font-semibold mb-4 text-[#F8B612]">
               Quick Links
             </h4>
             <ul className="space-y-2">
               <li>
                 <Link
                   href="#"
-                  className="hover:text-yellow-400 transition duration-300className text-sm xl:text-[20px]"
+                  className="hover:text-[#F8B612] transition duration-300className text-sm lg:text-[14px] xl:text-[16px]"
                 >
                   Home
                 </Link>
@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   href="#"
-                  className="hover:text-yellow-400 transition duration-300 text-sm xl:text-[20px]"
+                  className="hover:text-[#F8B612] transition duration-300 text-sm lg:text-[14px] xl:text-[16px]"
                 >
                   About Us
                 </Link>
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   href="#"
-                  className="hover:text-yellow-400 transition duration-300 text-sm xl:text-[20px]"
+                  className="hover:text-[#F8B612] transition duration-300 text-sm lg:text-[14px] xl:text-[16px]"
                 >
                   Products
                 </Link>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   href="#"
-                  className="hover:text-yellow-400 transition duration-300 text-xl-1 text-sm xl:text-[20px]"
+                  className="hover:text-[#F8B612] transition duration-300 text-xl-1 text-sm lg:text-[14px] xl:text-[16px]"
                 >
                   Team
                 </Link>
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
               <li>
                 <Link
                   href="#"
-                  className="hover:text-yellow-400 transition duration-300 text-sm xl:text-[20px]"
+                  className="hover:text-[#F8B612] transition duration-300 text-sm lg:text-[14px] xl:text-[16px]"
                 >
                   Contact Us
                 </Link>
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="w-full md:w-1/4">
-            <h4 className="xl:text-[24px] font-semibold mb-4 text-yellow-400">
+            <h4 className="text-[24px] font-semibold mb-4 text-[#F8B612]xl:text-[24px] font-semibold mb-4 text-[#F8B612]">
               Social Info
             </h4>
             <div className="flex space-x-4">
@@ -91,16 +91,16 @@ const Footer: React.FC = () => {
 
               <a
                 href="#"
-                className="rounded-full p-2 flex items-center justify-center w-10 h-10"
+                className="rounded-full p-2 flex items-center justify-center w-12 h-12"
               >
                 <FaXTwitter className="w-7 h-8" /> 
               </a>
 
               <a
                 href="#"
-                className="rounded-full p-2 flex items-center justify-center w-10 h-10"
+                className="rounded-full p-2 flex items-center justify-center w-12 h-12"
               >
-                <PiLinkedinLogoLight className="w-7 h-8" />
+                <FaLinkedin className="w-7 h-8" />
               </a>
             </div>
           </div>

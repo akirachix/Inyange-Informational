@@ -16,8 +16,8 @@ const TeamMember = ({ name, role, image }) => (
       className="object-cover mx-auto w-full h-auto max-w-[240px] sm:max-w-[270px] md:max-w-[290px]"
     />
     <div className="p-4 bg-[#263C5A]">
-      <h3 className="text-base text-center text-[19px] font-bold text-[#F8B612]">{name}</h3>
-      <p className="text-[12px] text-center text-white">{role}</p>
+      <h3 className=" text-center text-[18px] font-bold text-[#F8B612]">{name}</h3>
+      <p className="text-[14px] text-center text-white">{role}</p>
     </div>
   </div>
 );
