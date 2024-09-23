@@ -11,6 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#F8B612",
+        secondary: "#263C5A",
+      },
+      fontFamily: {
+        worksans: ['Work Sans', 'sans-serif'], // Add Work Sans font
       },
     },
   },
