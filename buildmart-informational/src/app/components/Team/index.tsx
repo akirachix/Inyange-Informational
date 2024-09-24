@@ -2,13 +2,12 @@ import Image from 'next/image';
 import React from 'react';
 
 const teamMembers = [
-  { name: "Rehema Funani", role: "Software Developer", image: "/images/rehema.png", width: 240, height: 240 },
-  { name: "Eshe Aziz", role: "Software Developer", image: "/images/aziz.jpg", width: 240, height: 240 },
-  { name: "Faith Nyambura", role: "Software Developer", image: "/images/faith.jpg", width: 240, height: 240 },
-  { name: "Moureen Gitahi", role: "Software Developer", image: "/images/moureen.jpg", width: 240, height: 240 },
+  { name: "Rehema Funani", role: "Software Developer", image: "/images/rehema.png" },
+  { name: "Eshe Aziz", role: "Software Developer", image: "/images/aziz.jpg" },
+  { name: "Faith Nyambura", role: "Software Developer", image: "/images/faith.jpg" },
+  { name: "Moureen Gitahi", role: "Software Developer", image: "/images/moureen.jpg" },
 ];
 
-const TeamMember = ({ name, role, image, width, height }) => (
 interface TeamMemberProps {
   name: string;
   role: string;
@@ -20,9 +19,6 @@ const TeamMember: React.FC<TeamMemberProps> = ({ name, role, image }) => (
     <Image
       src={image}
       alt={name}
-      width={width}  
-      height={height} 
-      className="object-cover mx-auto w-full h-auto"
       className="object-cover mx-auto w-full h-auto max-w-[240px] sm:max-w-[270px] md:max-w-[290px]"
       width={240}
       height={240}
@@ -52,4 +48,3 @@ export default function Team() {
     </main>
   );
 }
-
