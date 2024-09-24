@@ -8,6 +8,7 @@ const teamMembers = [
   { name: "Moureen Gitahi", role: "Software Developer", image: "/images/moureen.jpg" },
 ];
 
+// Interface defined outside the component
 interface TeamMemberProps {
   name: string;
   role: string;
