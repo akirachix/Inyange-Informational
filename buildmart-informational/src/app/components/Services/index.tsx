@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 export default function Services() {
@@ -39,6 +40,10 @@ export default function Services() {
                     alt={feature.title}
                     width={feature.width}  
                     height={feature.height}  
+
+                    width={80}
+                    height={80} 
+
                     className="mb-2"
                   />
                   <h3 className="text-[24px] font-bold mb-4 text-[#263C5A]">{feature.title}</h3>

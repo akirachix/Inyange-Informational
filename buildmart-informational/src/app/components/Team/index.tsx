@@ -9,6 +9,13 @@ const teamMembers = [
 ];
 
 const TeamMember = ({ name, role, image, width, height }) => (
+interface TeamMemberProps {
+  name: string;
+  role: string;
+  image: string;
+}
+
+const TeamMember: React.FC<TeamMemberProps> = ({ name, role, image }) => (
   <div className="team-member max-w-[300px] mx-auto">
     <Image
       src={image}
@@ -16,6 +23,9 @@ const TeamMember = ({ name, role, image, width, height }) => (
       width={width}  
       height={height} 
       className="object-cover mx-auto w-full h-auto"
+      className="object-cover mx-auto w-full h-auto max-w-[240px] sm:max-w-[270px] md:max-w-[290px]"
+      width={240}
+      height={240}
     />
     <div className="p-4 bg-[#263C5A]">
       <h3 className="text-center text-[18px] font-bold text-[#F8B612]">{name}</h3>
