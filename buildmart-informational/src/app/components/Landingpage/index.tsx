@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Landingpage() {
   return (
     <section id="home">
-    <div className="bg-secondary text-white flex flex-col lg:flex-row items-center justify-center p-6 lg:p-12 mt-[-75px] md:mt-[-30px] lg:mt-[-80px] xl:pb-[127px] font-worksans">
+    <div className="bg-secondary text-white flex flex-col lg:flex-row items-center justify-center p-6 lg:p-12 mt-[-120px] md:mt-[-130px] lg:mt-[-80px] xl:pb-[127px] font-worksans">
       <div className="w-full lg:w-1/2 flex flex-col items-start mt-[30px] lg:mt-[10px] lg:pr-12">
         <h2 className="text-[16px] lg:w-[100%] sm:text-[20px] lg:text-[19px] xl:text-[24px] mt-[40px] sm:mt-[50px] lg:mt-[60px] mb-4 mx-auto lg:mx-0 text-center lg:text-left sm:w-[90%] xl:ml-[100px] md:text-[24px] md:ml-[25px] xl:mt-[-10px]">
           Transparent Prices for Every Kenyan Builder

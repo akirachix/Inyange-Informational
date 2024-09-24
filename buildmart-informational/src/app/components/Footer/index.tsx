@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
               <h3 className="text-2xl font-bold ml-3">BuildMart</h3>
             </div>
 
-            <p className="text-sm sm:text-base md:text-lg xl:text-[20px] leading-relaxed my-4 px-2 xl:w-[100%]">
+            <p className="text-sm sm:text-base md:text-lg xl:text-[16px] leading-relaxed my-4 px-2 xl:w-[78%]">
               BuildMart is a cutting-edge marketplace for builders and
               construction professionals. We connect skilled tradespeople,
               suppliers, and industry experts across various sectors of the
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="w-full md:w-1/4">
-            <h4 className="text-[24px] font-semibold mb-4 text-[#F8B612]xl:text-[24px] font-semibold mb-4 text-[#F8B612]">
+            <h4 className="text-[24px] text-[#F8B612]xl:text-[24px] font-semibold mb-4 text-[#F8B612]">
               Social Info
             </h4>
             <div className="flex space-x-4">
